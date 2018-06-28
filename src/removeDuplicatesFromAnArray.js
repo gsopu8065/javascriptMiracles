@@ -7,3 +7,10 @@ console.log(removeDuplicatesFromAnArray(a));
 
 let x = ["hi", "raj", "hi", "kk", "raj"];
 console.log(removeDuplicatesFromAnArray(x));
+
+
+function removeDuplicatesFromAnArray2(a) {
+    return Array.from(new Set(a));
+}
+console.log(removeDuplicatesFromAnArray2(a));
+console.log(removeDuplicatesFromAnArray2(x));
