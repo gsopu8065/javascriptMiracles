@@ -1,0 +1,29 @@
+ALgorithm: multiple stacks in one array
+
+
+int numOfStacks = 3
+int eachStackSize = 100
+int stack[] ---> its the size of numOfStacks*eachStackSize i.e., 100*3 = 300
+int stackSizes[] --> how many elements in each stack. size of the array is 3
+
+int isFull(stackNum){
+  return eachStackSize == stackSizes[stackNum]
+}
+
+void push(stackNum, value){
+  //check its full
+
+  //add values to the stack
+  stackSizes[stackNum]++;
+  stack[stackSizes[stackNum]] = value;
+}
+
+int isEmpty(stackNum){
+    return 0 == stackSizes[stackNum]
+}
+
+void pop(stackNum){
+   //check is empty
+  stack[stackSizes[stackNum]] = 0;
+  stackSizes[stackNum]--;
+}

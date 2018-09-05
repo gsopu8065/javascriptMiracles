@@ -1,0 +1,13 @@
+Algorithm: Find Linked list has a loop or not
+
+step1: create two pointers (fast and slow) point to head
+step2: traverse fast by two nodes, slow by one node till either slow == fast or fast != null
+   while( fast != null && fast.next != null)
+   {
+      fast = fast->next->next;
+      slow = slow->next;
+      if(fast == slow)
+       break;
+   }
+step3: if fast == null ---> no meeting point
+step4: else it has a loop

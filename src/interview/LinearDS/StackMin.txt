@@ -1,0 +1,26 @@
+Algorithm: get Min number from the stack
+
+we create another stack to keep minimum numbers
+
+void push(value){
+  top++;
+  stack[top] = value;
+
+  if(value < minStack.peek())
+  {
+     minStack.push(value);
+  }
+
+}
+
+
+void pop(){
+  int value = stack[top];
+  top--;
+
+  if(value == minStack.peek())
+  {
+     minStack.pop();
+  }
+
+}

@@ -1,0 +1,6 @@
+Algorithm: find intersection of the two lists
+
+Input: two lists
+output: intersection node
+step1: Get the length of two list
+step2: find the longest list and traverse to the difference of (longest minus shortest)

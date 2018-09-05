@@ -1,0 +1,10 @@
+Algorithm:
+
+step1: create 3 pointers (prev, curr and next)
+step2: curr = head
+step3: traverse the list with curr pointer  while(curr != null)
+ a) next = curr-> next
+ b) curr-> next = prev
+ c) prev =  curr
+ d) curr =  next
+step4: head = prev

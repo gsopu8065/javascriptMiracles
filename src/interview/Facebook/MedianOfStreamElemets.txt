@@ -1,0 +1,11 @@
+Algorithm: median of streaming elements
+median of [1,2,3] is 2
+median of [23,45,67,89,76,54,56] is 89
+median of [23,45,67,89, 2, 76,54,56] is (89 + 2)/2
+
+step1: create two stacks old stack and new stack
+step2: push new element to new stack
+step3: if new stack is bigger than old stack
+          return new stack peek
+        else
+          (new stack peek + old stack peek)/2

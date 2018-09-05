@@ -1,0 +1,15 @@
+Algorithm: create queue using stack
+
+Solution: create two stacks old and new
+
+
+void push(value){
+   //add value to new stack
+}
+
+void pop(){
+  if(old is empty){
+   //pop all elements from newstack to oldstack
+  }
+   //pop from old stack
+}

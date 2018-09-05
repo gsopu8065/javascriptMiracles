@@ -1,0 +1,7 @@
+Algorithm: https://www.geeksforgeeks.org/reverse-a-linked-list/
+
+step1: create a set
+step2: traverse the linked list  with temp and previous
+ a) check if the element is in the set
+   1) if yes --> previous.next = temp -> next
+   2) if no ---> add it to set and  previous = temp
