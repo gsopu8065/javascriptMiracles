@@ -47,17 +47,17 @@ public class RotateMatrix {
     /* Driver program to test above functions */
     public static void main (String[] args)
     {
-        int N = 4;
+        int N = 2;
 
         // Test Case 1
-        int mat[][] =
+        /*int mat[][] =
                 {
                         {1, 2, 3, 4},
                         {5, 6, 7, 8},
                         {9, 10, 11, 12},
                         {13, 14, 15, 16}
                 };
-
+*/
 
         // Tese Case 2
         /* int mat[][] = {
@@ -68,10 +68,10 @@ public class RotateMatrix {
          */
 
         // Tese Case 3
-        /*int mat[][] = {
+        int mat[][] = {
                         {1, 2},
                         {4, 5}
-                    };*/
+                    };
 
         // displayMatrix(mat);
 

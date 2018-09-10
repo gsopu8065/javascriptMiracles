@@ -42,7 +42,7 @@ class PairInSortedRotated
     public static void main (String[] args)
     {
         int arr[] = {11, 15, 2, 4, 8, 6, 8, 9, 10};
-        int sum = 17;
+        int sum = 15;
         int n = arr.length;
 
         if (pairInSortedRotated(arr, n, sum))

@@ -11,7 +11,7 @@ M             1000
 
 public class RomanToDecimal {
     public static void romanToDecimal(String romanNumber) {
-        int decimal = 0;
+        int res = 0;
         int lastNumber = 0;
         String romanNumeral = romanNumber.toUpperCase();
         /* operation to be performed on upper cases even if user
@@ -21,49 +21,49 @@ public class RomanToDecimal {
 
             switch (convertToDecimal) {
                 case 'M':
-                    decimal = processDecimal(1000, lastNumber, decimal);
+                    res = processDecimal(1000, lastNumber, res);
                     lastNumber = 1000;
                     break;
 
                 case 'D':
-                    decimal = processDecimal(500, lastNumber, decimal);
+                    res = processDecimal(500, lastNumber, res);
                     lastNumber = 500;
                     break;
 
                 case 'C':
-                    decimal = processDecimal(100, lastNumber, decimal);
+                    res = processDecimal(100, lastNumber, res);
                     lastNumber = 100;
                     break;
 
                 case 'L':
-                    decimal = processDecimal(50, lastNumber, decimal);
+                    res = processDecimal(50, lastNumber, res);
                     lastNumber = 50;
                     break;
 
                 case 'X':
-                    decimal = processDecimal(10, lastNumber, decimal);
+                    res = processDecimal(10, lastNumber, res);
                     lastNumber = 10;
                     break;
 
                 case 'V':
-                    decimal = processDecimal(5, lastNumber, decimal);
+                    res = processDecimal(5, lastNumber, res);
                     lastNumber = 5;
                     break;
 
                 case 'I':
-                    decimal = processDecimal(1, lastNumber, decimal);
+                    res = processDecimal(1, lastNumber, res);
                     lastNumber = 1;
                     break;
             }
         }
-        System.out.println(decimal);
+        System.out.println(res);
     }
 
-    public static int processDecimal(int decimal, int lastNumber, int lastDecimal) {
+    public static int processDecimal(int decimal, int lastNumber, int res) {
         if (lastNumber > decimal) {
-            return lastDecimal - decimal;
+            return res - decimal;
         } else {
-            return lastDecimal + decimal;
+            return res + decimal;
         }
     }
 

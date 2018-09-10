@@ -12,7 +12,7 @@ public class SumOfElementsZero {
         for (int i=0; i<n-1; i++)
         {
             // initialize left and right
-            int l = i + 1;
+            int l = i;
             int r = n - 1;
             while (l < r)
             {
