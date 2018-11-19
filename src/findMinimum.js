@@ -2,5 +2,5 @@ function findMin(a) {
     return Math.min.apply(null, a);
 }
 
-let a = [7,45,87,1,4];
+let a = [1];
 console.log(findMin(a));

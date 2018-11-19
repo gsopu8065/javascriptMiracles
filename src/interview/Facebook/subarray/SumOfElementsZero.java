@@ -83,8 +83,8 @@ public class SumOfElementsZero {
 
 
     public static void main(String[] args) {
-        int x[] = {1, 60, -10, 70, -80, 85, 10};
-        sumOfTwo(x);
+        int x[] = {-1,0,1,2,-1,-4};
+        //sumOfTwo(x);
         sumOfThree(x);
     }
 }
