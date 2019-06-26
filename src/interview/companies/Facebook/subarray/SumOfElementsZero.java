@@ -1,4 +1,4 @@
-package subarray;
+package Facebook.subarray;
 
 import java.util.Arrays;
 

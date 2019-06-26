@@ -1,4 +1,4 @@
-/*
+package Facebook;/*
 Take an example for 2 disks :
 Let rod 1 = 'A', rod 2 = 'B', rod 3 = 'C'.
 

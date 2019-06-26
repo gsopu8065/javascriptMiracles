@@ -1,4 +1,4 @@
-/*
+package Facebook;/*
 
 Generate all possible combinations(permitations) with a string
 ex1: input: "abc"

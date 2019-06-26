@@ -42,14 +42,14 @@ class PairInSortedRotated
     public static void main (String[] args)
     {
         int arr[] = {11, 15, 2, 4, 8, 6, 8, 9, 10};
-        int sum = 15;
+        int sum = 6;
         int n = arr.length;
 
         if (pairInSortedRotated(arr, n, sum))
             System.out.print("Array has two elements" +
-                    " with sum 16");
+                    " with sum "+sum);
         else
             System.out.print("Array doesn't have two" +
-                    " elements with sum 16 ");
+                    " elements with sum "+sum);
     }
 }

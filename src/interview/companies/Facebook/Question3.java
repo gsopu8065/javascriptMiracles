@@ -1,4 +1,4 @@
-/*
+package Facebook;/*
 
 if you cut the input string anywhere(any times) and couldn't able to find pieces in the list of string, it should return true
 otherwise false

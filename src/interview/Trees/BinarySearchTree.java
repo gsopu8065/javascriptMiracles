@@ -1,6 +1,15 @@
 // Java program to demonstrate insert operation in binary search tree
 public class BinarySearchTree {
 
+    static class INT
+    {
+        int v;
+        INT(int a)
+        {
+            v = a;
+        }
+    }
+
     /* Class containing left and right child of current node and key value*/
     class Node {
         int key;
@@ -67,7 +76,7 @@ public class BinarySearchTree {
     void inorderRec(Node root) {
         if (root != null) {
             inorderRec(root.left);
-            System.out.println(root.key);
+            System.out.print(root.key+" ");
             inorderRec(root.right);
         }
     }
@@ -162,6 +171,72 @@ public class BinarySearchTree {
     }
 
 
+    /*Remove all nodes which don’t lie in any path with sum>= k */
+    static Node pruneUtil(Node root, int k,
+                          INT sum)
+    {
+        // Base Case
+        if (root == null) return null;
+
+        // Initialize left and right
+        // sums as sum from root to
+        // this node (including this node)
+        INT lsum = new INT(sum.v + (root.key));
+        INT rsum = new INT(lsum.v);
+
+        // Recursively prune left
+        // and right subtrees
+        root.left = pruneUtil(root.left, k, lsum);
+        root.right = pruneUtil(root.right, k, rsum);
+
+        // Get the maximum of
+        // left and right sums
+        sum.v = Math.max(lsum.v, rsum.v);
+
+        // If maximum is smaller
+        // than k, then this node
+        // must be deleted
+        if (sum.v < k)
+        {
+
+            root = null;
+        }
+
+        return root;
+    }
+
+    // A wrapper over pruneUtil()
+    static Node prune(Node root, int k)
+    {
+        INT sum = new INT(0);
+        return pruneUtil(root, k, sum);
+    }
+
+
+    /* Remove nodes on root to leaf paths of length < K */
+    static Node removeShortPathNodesUtil(Node node, int level, int k)
+    {
+        //Base condition
+        if (node == null)
+            return null;
+
+        node.left = removeShortPathNodesUtil(node.left, level + 1, k);
+        node.right = removeShortPathNodesUtil(node.right, level + 1, k);
+
+
+        if (node.left == null && node.right == null && level < k)
+            return null;
+
+        return node;
+    }
+
+    // Method which calls the utitlity method to remove the short path
+    // nodes.
+    static Node removeShortPathNodes(Node node, int k)
+    {
+        return removeShortPathNodesUtil(node, 1, k);
+    }
+
     // Driver Program to test above functions
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
@@ -171,7 +246,12 @@ public class BinarySearchTree {
            /     \
           30      70
          /  \    /  \
-       20   40  60   80 */
+       20   40  60   80
+                      \
+                      100
+                       \
+                       120
+                             */
         tree.insert(50);
         tree.insert(30);
         tree.insert(20);
@@ -179,13 +259,22 @@ public class BinarySearchTree {
         tree.insert(70);
         tree.insert(60);
         tree.insert(80);
+        tree.insert(100);
+        tree.insert(120);
 
         // print inorder traversal of the BST
         tree.inorder();
 
-        System.out.println("Height:"+tree.height());
+        System.out.println("\n Height:"+tree.height());
         System.out.println("Diameter:"+tree.diameter());
         System.out.println("is BST:"+tree.isBST());
         System.out.println("LCA od 30 and 80:"+tree.findLCA(30, 80).key);
+
+        Node pruneTree = prune(tree.root, 200);
+        tree.inorderRec(pruneTree);
+
+        System.out.println("\n");
+        Node shortPathRemoved = removeShortPathNodes(tree.root, 6);
+        tree.inorderRec(shortPathRemoved);
     }
 }

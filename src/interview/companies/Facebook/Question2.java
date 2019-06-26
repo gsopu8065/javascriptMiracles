@@ -1,4 +1,4 @@
-/*
+package Facebook;/*
 find the maximum element of every k-elements
 
 ex: input(array = [1,5,6,7,34,12,38,56], k= 3)

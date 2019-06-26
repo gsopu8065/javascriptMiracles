@@ -1,4 +1,5 @@
 // Java program for implementation of Heap Sort
+//https://medium.com/basecs/heapify-all-the-things-with-heap-sort-55ee1c93af82
 public class HeapSort
 {
     public void sort(int arr[])
@@ -26,7 +27,9 @@ public class HeapSort
     // an index in arr[]. n is size of heap
     void heapify(int arr[], int n, int i)
     {
+        printArray(arr);
         System.out.println(i);
+
         int largest = i;  // Initialize largest as root
         int l = 2*i + 1;  // left = 2*i + 1
         int r = 2*i + 2;  // right = 2*i + 2
@@ -63,7 +66,7 @@ public class HeapSort
     // Driver program
     public static void main(String args[])
     {
-        int arr[] = {4,10,3,5,1};
+        int arr[] = {6,5,3,1,8,7,2,4};
         int n = arr.length;
 
         HeapSort ob = new HeapSort();
