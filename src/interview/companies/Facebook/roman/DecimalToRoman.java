@@ -33,7 +33,7 @@ public class DecimalToRoman {
     }
 
     public static void main(String[] args) {
-        String res = DecimalToRoman.toRoman(123);
+        String res = DecimalToRoman.toRoman(5000);
         System.out.println(res);
     }
 

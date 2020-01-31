@@ -68,6 +68,6 @@ public class RomanToDecimal {
     }
 
     public static void main(java.lang.String args[]) {
-        romanToDecimal("XIV");
+        romanToDecimal("LXIV");
     }
 }
