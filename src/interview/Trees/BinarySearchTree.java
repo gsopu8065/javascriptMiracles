@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
 // Java program to demonstrate insert operation in binary search tree
 public class BinarySearchTree {
 
@@ -66,6 +71,38 @@ public class BinarySearchTree {
            height and right heights */
         return (1 + Math.max(heightNode(node.left), heightNode(node.right)));
     }
+
+    public List<Integer> bfsRoot(){
+        List<Node> res = new ArrayList<Node>();
+        res.add(this.root);
+        return bfs(res);
+    }
+
+    List<Integer> bfsRes = new ArrayList<Integer>();
+    List<Integer> bfs(List<Node> nodes){
+
+        List<Node> res = new ArrayList<Node>();
+        for(int i=0;i<nodes.size();i++){
+            Node temp = nodes.get(i);
+            bfsRes.add(temp.key);
+
+            if (temp.left != null) {
+                res.add(temp.left);
+            }
+
+            /*Enqueue right child */
+            if (temp.right != null) {
+                res.add(temp.right);
+            }
+        }
+
+        if(res.size() > 0)
+            bfs(res);
+
+        return bfsRes;
+    }
+
+
 
     // This method mainly calls InorderRec()
     void inorder()  {
@@ -264,6 +301,8 @@ public class BinarySearchTree {
 
         // print inorder traversal of the BST
         tree.inorder();
+
+        System.out.println("\n BFS = "+ tree.bfsRoot());
 
         System.out.println("\n Height:"+tree.height());
         System.out.println("Diameter:"+tree.diameter());
