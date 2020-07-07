@@ -59,4 +59,6 @@ public class Question3 {
 
     }
 
+    //time complexity : O(n^n)
+
 }
