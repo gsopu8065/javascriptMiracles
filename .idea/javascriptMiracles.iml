@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file://$APPLICATION_HOME_DIR$/bin" />
+    <output-test url="file://$APPLICATION_HOME_DIR$/bin" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/LinearDS" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Trie" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Heap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Lyft" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Graph" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/companies/Amazon" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/companies" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Strings" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/BitManupulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/BackTracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/DynamicProgramming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/java8" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/interview/Characters" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

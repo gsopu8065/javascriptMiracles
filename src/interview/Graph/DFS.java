@@ -3,6 +3,14 @@ import java.util.*;
 
 // This class represents a directed graph using adjacency list
 // representation
+
+/*
+Type1: Island (DFS1), Word search in a board (DFS1_2 DFS with no visitors)
+Type2: Find cycle using color code https://www.interviewbit.com/problems/cycle-in-directed-graph/ (DFS2)
+       Is course schdule possible https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/
+Type3: Course List (Topology sort DFS4)
+Type4: Store visitor value Ex: Longest Increasing Path (DFS5)
+ */
 class DFS
 {
     private int V; // No. of vertices

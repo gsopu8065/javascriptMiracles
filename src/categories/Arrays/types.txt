@@ -1,0 +1,9 @@
+1. Hashmap and Arrays
+
+2. Sliding Window
+
+3. Kandane Algorithm
+
+4. Missing and Repeating Number
+
+5. Process from Left and Right

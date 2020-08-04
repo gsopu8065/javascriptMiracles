@@ -274,7 +274,7 @@ public class BinarySearchTree {
         return removeShortPathNodesUtil(node, 1, k);
     }
 
-    // Driver Program to test above functions
+    // Driver Program1 to test above functions
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
 

@@ -1,5 +1,5 @@
 // Java program for implementation of Heap Sort
-//https://medium.com/basecs/heapify-all-the-things-with-heap-sort-55ee1c93af82
+//
 public class HeapSort
 {
     public void sort(int arr[])

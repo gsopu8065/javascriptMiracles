@@ -1,85 +1,59 @@
+//Topological sort graph
+//course graph
 
-//Java program to find minimum time required to make all 
-//oranges rotten
+import java.util.*;
 
-import javafx.util.Pair;
+public class DFS4 {
+    public int[] findOrder(int numCourses, int[][] prerequisites) {
 
-import java.util.ArrayDeque;
-import java.util.LinkedList;
-import java.util.Queue;
+            Map<Integer, List<Integer>> adjList = new HashMap<Integer, List<Integer>>();
+            int[] indegree = new int[numCourses];
+            int[] topologicalOrder = new int[numCourses];
 
-public class DFS4
-{
+            // Create the adjacency list representation of the graph
+            for (int i = 0; i < prerequisites.length; i++) {
+                int dest = prerequisites[i][0];
+                int src = prerequisites[i][1];
+                List<Integer> lst = adjList.getOrDefault(src, new ArrayList<Integer>());
+                lst.add(dest);
+                adjList.put(src, lst);
 
-    public int orangesRotting(int[][] grid) {
-            Queue<Pair<Integer, Integer>> queue = new ArrayDeque();
+                // Record in-degree of each vertex
+                indegree[dest] += 1;
+            }
 
-            // Step 1). build the initial set of rotten oranges
-            int freshOranges = 0;
-            int ROWS = grid.length, COLS = grid[0].length;
+            // Add all vertices with 0 in-degree to the queue
+            Queue<Integer> q = new LinkedList<Integer>();
+            for (int i = 0; i < numCourses; i++) {
+                if (indegree[i] == 0) {
+                    q.add(i);
+                }
+            }
 
-            for (int r = 0; r < ROWS; ++r)
-                for (int c = 0; c < COLS; ++c)
-                    if (grid[r][c] == 2)
-                        queue.offer(new Pair(r, c));
-                    else if (grid[r][c] == 1)
-                        freshOranges++;
+            int i = 0;
+            // Process until the Q becomes empty
+            while (!q.isEmpty()) {
+                int node = q.remove();
+                topologicalOrder[i++] = node;
 
-            // Mark the round / level, _i.e_ the ticker of timestamp
-            queue.offer(new Pair(-1, -1));
+                // Reduce the in-degree of each neighbor by 1
+                if (adjList.containsKey(node)) {
+                    for (Integer neighbor : adjList.get(node)) {
+                        indegree[neighbor]--;
 
-            // Step 2). start the rotting process via BFS
-            int minutesElapsed = -1;
-            int[][] directions = { {-1, 0}, {0, 1}, {1, 0}, {0, -1}};
-
-            while (!queue.isEmpty()) {
-                Pair<Integer, Integer> p = queue.poll();
-                int row = p.getKey();
-                int col = p.getValue();
-                if (row == -1) {
-                    // We finish one round of processing
-                    minutesElapsed++;
-                    // to avoid the endless loop
-                    if (!queue.isEmpty())
-                        queue.offer(new Pair(-1, -1));
-                } else {
-                    // this is a rotten orange
-                    // then it would contaminate its neighbors
-                    for (int[] d : directions) {
-                        int neighborRow = row + d[0];
-                        int neighborCol = col + d[1];
-                        if (neighborRow >= 0 && neighborRow < ROWS &&
-                                neighborCol >= 0 && neighborCol < COLS) {
-                            if (grid[neighborRow][neighborCol] == 1) {
-                                // this orange would be contaminated
-                                grid[neighborRow][neighborCol] = 2;
-                                freshOranges--;
-                                // this orange would then contaminate other oranges
-                                queue.offer(new Pair(neighborRow, neighborCol));
-                            }
+                        // If in-degree of a neighbor becomes 0, add it to the Q
+                        if (indegree[neighbor] == 0) {
+                            q.add(neighbor);
                         }
                     }
                 }
             }
 
-            // return elapsed minutes if no fresh orange left
-            return freshOranges == 0 ? minutesElapsed : -1;
+            // Check to see if topological sort is possible or not.
+            if (i == numCourses) {
+                return topologicalOrder;
+            }
+
+            return new int[0];
         }
-
-
-    // Drive program 
-    public static void main(String[] args)
-    {
-        int arr[][] = { {2, 1, 0, 2, 1},
-                {1, 0, 1, 2, 1},
-                {1, 0, 0, 2, 1}};
-        DFS4  dfs4 = new DFS4();
-        int ans = dfs4.orangesRotting(arr);
-        if(ans == -1)
-            System.out.println("All oranges cannot rot");
-        else
-            System.out.println("Time required for all oranges to rot = " + ans);
-    }
-
 }
-//This code is contributed by Sumit Ghosh 

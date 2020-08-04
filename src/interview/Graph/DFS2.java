@@ -1,99 +1,64 @@
-// A Java Program to detect cycle in an undirected graph
+// A Java Program1 to detect cycle in an undirected graph
 import java.util.*;
 
 // This class represents a directed graph using adjacency list
 // representation
-class DFS2
-{
-    private int V; // No. of vertices
-    private LinkedList<Integer> adj[]; // Adjacency List Represntation
+public class DFS2 {
 
-    // Constructor
-    DFS2(int v) {
-        V = v;
-        adj = new LinkedList[v];
-        for(int i=0; i<v; ++i)
-            adj[i] = new LinkedList();
+    //red = not processed, blue is inprogress, green is done;
+    int RED = 0, BLUE = 1, GREEN = 2;
+
+    LinkedList<Integer>[] g;
+    public int solve(int A, int[][] B) {
+
+        //step1: define graph
+        g = new LinkedList[A];
+        for(int i=0;i<A;i++){
+            g[i] = new LinkedList<>();
+        }
+
+        //step2: assign all nodes
+        for(int i=0;i<B.length;i++){
+            g[B[i][0]-1].add(B[i][1]-1);
+        }
+
+        //step3: create a visited array to track
+        int[] visited = new int[A];
+        for(int i=0;i<A;i++){
+            visited[i] = RED;
+        }
+
+
+        //step4: traverse through the graph
+        for(int i=0;i<g.length;i++){
+            if(visited[i] == RED){
+                if(isCycle(g, visited, i)){
+                    return 1;
+                }
+            }
+        }
+
+        return 0;
     }
 
-    // Function to add an edge into the graph
-    void addEdge(int v,int w) {
-        adj[v].add(w);
-        adj[w].add(v);
-    }
+    public boolean isCycle(LinkedList<Integer>[] g, int[] visited,int i){
+        //change visited to inprogress
+        visited[i] = BLUE;
 
-    // A recursive function that uses visited[] and parent to detect
-    // cycle in subgraph reachable from vertex v.
-    Boolean isCyclicUtil(int v, Boolean visited[], int parent)
-    {
-        // Mark the current node as visited
-        visited[v] = true;
-        Integer i;
-
-        // Recur for all the vertices adjacent to this vertex
-        Iterator<Integer> it = adj[v].iterator();
-        while (it.hasNext())
-        {
-            i = it.next();
-
-            // If an adjacent is not visited, then recur for that
-            // adjacent
-            if (!visited[i])
-            {
-                if (isCyclicUtil(i, visited, v))
-                    return true;
+        //search for all childrens
+        for(Integer child: g[i]){
+            //if child is in progress, there is a cycle
+            if(visited[child] == BLUE){
+                return true;
             }
 
-            // If an adjacent is visited and not parent of current
-            // vertex, then there is a cycle.
-            else if (i != parent)
+            if(visited[child] == RED && isCycle(g, visited, child)){
                 return true;
+            }
         }
+
+        //mark visited as done
+        visited[i] = GREEN;
         return false;
-    }
-
-    // Returns true if the graph contains a cycle, else false.
-    Boolean isCyclic()
-    {
-        // Mark all the vertices as not visited and not part of
-        // recursion stack
-        Boolean visited[] = new Boolean[V];
-        for (int i = 0; i < V; i++)
-            visited[i] = false;
-
-        // Call the recursive helper function to detect cycle in
-        // different DFS trees
-        for (int u = 0; u < V; u++)
-            if (!visited[u]) // Don't recur for u if already visited
-                if (isCyclicUtil(u, visited, -1))
-                    return true;
-
-        return false;
-    }
-
-
-    // Driver method to test above methods
-    public static void main(String args[])
-    {
-        // Create a graph given in the above diagram
-        DFS2 g1 = new DFS2(5);
-        g1.addEdge(1, 0);
-        g1.addEdge(0, 2);
-        g1.addEdge(2, 1);
-        g1.addEdge(0, 3);
-        g1.addEdge(3, 4);
-        if (g1.isCyclic())
-            System.out.println("DFS2 contains cycle");
-        else
-            System.out.println("DFS2 doesn't contains cycle");
-
-        DFS2 g2 = new DFS2(3);
-        g2.addEdge(0, 1);
-        g2.addEdge(1, 2);
-        if (g2.isCyclic())
-            System.out.println("DFS2 contains cycle");
-        else
-            System.out.println("DFS2 doesn't contains cycle");
     }
 }
-// This code is contributed by Aakash Hasija

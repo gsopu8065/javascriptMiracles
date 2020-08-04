@@ -1,59 +1,75 @@
-//Topological sort graph
-//course graph
+/*
+Example 1:
 
-import java.util.*;
+Input: nums =
+[
+  [9,9,4],
+  [6,6,8],
+  [2,1,1]
+]
+Output: 4
+Explanation: The longest increasing path is [1, 2, 6, 9].
+Example 2:
+
+Input: nums =
+[
+  [3,4,5],
+  [3,2,6],
+  [2,2,1]
+]
+Output: 4
+Explanation: The longest increasing path is [3, 4, 5, 6]. Moving diagonally is not allowed.
+
+ */
 
 public class DFS5 {
-    public int[] findOrder(int numCourses, int[][] prerequisites) {
-
-            Map<Integer, List<Integer>> adjList = new HashMap<Integer, List<Integer>>();
-            int[] indegree = new int[numCourses];
-            int[] topologicalOrder = new int[numCourses];
-
-            // Create the adjacency list representation of the graph
-            for (int i = 0; i < prerequisites.length; i++) {
-                int dest = prerequisites[i][0];
-                int src = prerequisites[i][1];
-                List<Integer> lst = adjList.getOrDefault(src, new ArrayList<Integer>());
-                lst.add(dest);
-                adjList.put(src, lst);
-
-                // Record in-degree of each vertex
-                indegree[dest] += 1;
-            }
-
-            // Add all vertices with 0 in-degree to the queue
-            Queue<Integer> q = new LinkedList<Integer>();
-            for (int i = 0; i < numCourses; i++) {
-                if (indegree[i] == 0) {
-                    q.add(i);
-                }
-            }
-
-            int i = 0;
-            // Process until the Q becomes empty
-            while (!q.isEmpty()) {
-                int node = q.remove();
-                topologicalOrder[i++] = node;
-
-                // Reduce the in-degree of each neighbor by 1
-                if (adjList.containsKey(node)) {
-                    for (Integer neighbor : adjList.get(node)) {
-                        indegree[neighbor]--;
-
-                        // If in-degree of a neighbor becomes 0, add it to the Q
-                        if (indegree[neighbor] == 0) {
-                            q.add(neighbor);
-                        }
-                    }
-                }
-            }
-
-            // Check to see if topological sort is possible or not.
-            if (i == numCourses) {
-                return topologicalOrder;
-            }
-
-            return new int[0];
+    int[][] visited;
+    int m, n;
+    public int longestIncreasingPath(int[][] matrix) {
+        if(matrix == null || matrix.length == 0){
+            return 0;
         }
+        m = matrix.length;
+        n = matrix[0].length;
+
+        visited = new int[m][n];
+
+        int maxLength = Integer.MIN_VALUE;
+
+        for(int i=0; i < m; i++){
+            for(int j =0; j < n; j++){
+                int t = dfs(matrix, i, j);
+                maxLength = Math.max(maxLength, t);
+            }
+        }
+
+        return maxLength;
+    }
+
+    int[][] dirs = new int[][]{{0,1}, {0,-1}, {1,0}, {-1,0}};
+
+    private int dfs(int[][] matrix, int i, int j){
+        // base case
+        if(visited[i][j] != 0){
+            return visited[i][j];
+        }
+
+        int maxLen = 1;
+
+        for(int[] dir : dirs){
+
+            int row = dir[0] + i;
+            int col = dir[1] + j;
+
+            if(row < 0 || row > m-1 || col < 0 || col > n-1 || matrix[row][col] <= matrix[i][j]){
+                continue;
+            }
+
+            maxLen = Math.max(1 + dfs(matrix, row, col), maxLen);
+        }
+
+        visited[i][j] = maxLen;
+
+        return visited[i][j];
+    }
 }

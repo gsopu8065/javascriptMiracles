@@ -26,7 +26,7 @@ function solution(digits, index, resultString, resultList) {
     }
 }
 
-var digits = ['2', '3'];
+var digits = ['2', '2'];
 var list = [];
 solution(digits, 0, "", list);
 console.log(list);

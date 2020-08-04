@@ -1,0 +1,7 @@
+Hashmap and Arrays
+
+
+Medium:
+https://leetcode.com/problems/subarray-sum-equals-k/
+https://leetcode.com/problems/subarray-sums-divisible-by-k/
+https://leetcode.com/problems/continuous-subarray-sum/

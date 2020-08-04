@@ -6,7 +6,12 @@ import java.io.*;
 import java.util.*;
 
 // This class represents a directed graph using adjacency list 
-// representation 
+// representation
+
+/*
+Type1: Rotten oranges (BFS1) nno visited matrix
+Type2: Source to destination shortest path (BFS2) with visited matrix
+ */
 class BFS
 {
     private int V; // No. of vertices 

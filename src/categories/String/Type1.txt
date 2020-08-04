@@ -1,0 +1,16 @@
+Hashmap and string
+
+Easy:
+https://leetcode.com/problems/first-unique-character-in-a-string/
+
+
+
+Medium:
+https://leetcode.com/problems/longest-substring-without-repeating-characters/
+https://leetcode.com/problems/sort-characters-by-frequency/
+https://leetcode.com/problems/top-k-frequent-elements/
+https://leetcode.com/problems/top-k-frequent-words/
+
+
+
+Hard:

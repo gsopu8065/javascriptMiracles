@@ -1,0 +1,51 @@
+BFS:
+Type1: Rotten oranges (BFS1) nno visited matrix
+Type2: Source to destination shortest path no weights binary (BFS2) with visited matrix
+
+DFS:
+Type1: Island (DFS1),
+       1.2: Word search in a board (DFS1_2 DFS with no visitors),
+       1.3: Elulars algorithm: traverse only once (use linked link) https://leetcode.com/problems/reconstruct-itinerary/
+       1.4: https://leetcode.com/problems/friend-circles (with 1-D visitors)
+Type2: 2.1: Find cycle using color code https://www.interviewbit.com/problems/cycle-in-directed-graph/ (DFS2)
+            https://leetcode.com/problems/all-paths-from-source-lead-to-destination
+       2.2: cycle in undirected graph(no direction) : https://www.interviewbit.com/problems/cycle-in-undirected-graph/
+       Is course schdule possible https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/
+Type3: Course List (Topology sort DFS4)
+       https://leetcode.com/problems/alien-dictionary
+Type4: Store visitor value Ex: Longest Increasing Path (DFS5)
+
+
+Trees + Graph:
+    https://leetcode.com/problems/graph-valid-tree/ [Note: number of edges == number of nodes -1]
+    https://leetcode.com/problems/validate-binary-tree-nodes/
+    https://leetcode.com/problems/minimum-height-trees/
+
+Graph Bipartite:
+https://leetcode.com/problems/is-graph-bipartite/
+https://leetcode.com/problems/possible-bipartition/
+
+Dijkstra's Shortest Path (only +ve weights):
+Type1: https://leetcode.com/problems/network-delay-time/
+Type2: (Extenstion of type1: no need of dist array) https://leetcode.com/problems/cheapest-flights-within-k-stops/
+
+Dijkstra + DFS:
+https://leetcode.com/problems/path-with-maximum-minimum-value/
+
+Disjoint-set
+Type1: https://leetcode.com/problems/accounts-merge/
+       https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph
+       https://leetcode.com/problems/similar-string-groups
+Type2: Disjoint with rank
+       https://leetcode.com/problems/evaluate-division/
+
+Cloning Graph/List/Tree (all same )
+https://leetcode.com/problems/clone-graph
+https://leetcode.com/problems/copy-list-with-random-pointer
+https://leetcode.com/problems/clone-binary-tree-with-random-pointer
+https://leetcode.com/problems/clone-n-ary-tree
+
+
+Fun:
+https://leetcode.com/problems/find-the-town-judge/  (Just like first non-repeating character)
+https://leetcode.com/problems/flower-planting-with-no-adjacent
