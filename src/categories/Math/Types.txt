@@ -1,0 +1,5 @@
+1. Next Permutation: https://leetcode.com/problems/next-permutation/
+2. Rotate Matrix: https://leetcode.com/problems/rotate-image/
+3. Spiral Matrix: https://leetcode.com/problems/spiral-matrix/
+4. Spiral Matrix II: https://leetcode.com/problems/spiral-matrix-ii
+5. Roman to Integer: https://leetcode.com/problems/roman-to-integer/

@@ -1,0 +1,8 @@
+Type1: Replace with combinations
+https://leetcode.com/problems/generate-parentheses/
+Replace 0 and 1 at ?
+https://leetcode.com/problems/letter-combinations-of-a-phone-number/
+
+
+Type2: Count Decode combinations
+https://leetcode.com/problems/decode-ways

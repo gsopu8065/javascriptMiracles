@@ -1,0 +1,5 @@
+Time based Key/Value: https://leetcode.com/problems/time-based-key-value-store/
+LRU: https://leetcode.com/problems/lru-cache/
+LFU: https://leetcode.com/problems/lfu-cache/
+Iterator: https://leetcode.com/problems/design-compressed-string-iterator/
+File System: https://leetcode.com/problems/design-in-memory-file-system/

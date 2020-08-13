@@ -7,3 +7,7 @@
 4. Missing and Repeating Number
 
 5. Process from Left and Right
+
+6. Two Pointers
+
+7. Merge List/Intervals

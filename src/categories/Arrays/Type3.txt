@@ -1,4 +1,4 @@
-Kandane Algorithm
+Kadane Algorithm
 
 
 Medium:

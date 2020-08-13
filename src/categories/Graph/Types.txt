@@ -1,33 +1,36 @@
 BFS:
-Type1: Rotten oranges (BFS1) nno visited matrix
-Type2: Source to destination shortest path no weights binary (BFS2) with visited matrix
+[No visited matrix]: Rotten oranges (BFS1)
+[Visited matrix]: Source to destination shortest path no weights binary (BFS2)
 
 DFS:
-Type1: Island (DFS1),
-       1.2: Word search in a board (DFS1_2 DFS with no visitors),
-       1.3: Elulars algorithm: traverse only once (use linked link) https://leetcode.com/problems/reconstruct-itinerary/
-       1.4: https://leetcode.com/problems/friend-circles (with 1-D visitors)
-Type2: 2.1: Find cycle using color code https://www.interviewbit.com/problems/cycle-in-directed-graph/ (DFS2)
+[Basic DFS]: Number of Islands (DFS1),
+[DFS with No Visitors]: Word search in a board (DFS1_2 DFS with no visitors),
+[Elulars algorithm]: traverse only once (use linked link) https://leetcode.com/problems/reconstruct-itinerary/
+[1-D Visitors]: https://leetcode.com/problems/friend-circles (with 1-D visitors)
+[Store visitors value]: Longest Increasing Path
+
+Cycle Detection:
+[Cycle in Directed]: Find cycle using color code https://www.interviewbit.com/problems/cycle-in-directed-graph/ (DFS2)
             https://leetcode.com/problems/all-paths-from-source-lead-to-destination
-       2.2: cycle in undirected graph(no direction) : https://www.interviewbit.com/problems/cycle-in-undirected-graph/
-       Is course schdule possible https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/
-Type3: Course List (Topology sort DFS4)
-       https://leetcode.com/problems/alien-dictionary
-Type4: Store visitor value Ex: Longest Increasing Path (DFS5)
+            https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/
+[Cycle in undirected graph(no direction)]: https://www.interviewbit.com/problems/cycle-in-undirected-graph/
 
+Topology:
+[Basic Topology]: Course List
+[Topology with logic]: https://leetcode.com/problems/alien-dictionary
 
-Trees + Graph:
-    https://leetcode.com/problems/graph-valid-tree/ [Note: number of edges == number of nodes -1]
-    https://leetcode.com/problems/validate-binary-tree-nodes/
-    https://leetcode.com/problems/minimum-height-trees/
+Trees + Graph: [Note: number of edges == number of nodes -1]
+[Directed] https://leetcode.com/problems/graph-valid-tree/
+[Undirected]:https://leetcode.com/problems/validate-binary-tree-nodes/
+[Nodes Removal]:https://leetcode.com/problems/minimum-height-trees/
 
 Graph Bipartite:
 https://leetcode.com/problems/is-graph-bipartite/
 https://leetcode.com/problems/possible-bipartition/
 
 Dijkstra's Shortest Path (only +ve weights):
-Type1: https://leetcode.com/problems/network-delay-time/
-Type2: (Extenstion of type1: no need of dist array) https://leetcode.com/problems/cheapest-flights-within-k-stops/
+[Basic Dijkstra]: https://leetcode.com/problems/network-delay-time/
+[Dijkstra with no need of dist array]: https://leetcode.com/problems/cheapest-flights-within-k-stops/
 
 Dijkstra + DFS:
 https://leetcode.com/problems/path-with-maximum-minimum-value/
@@ -44,7 +47,6 @@ https://leetcode.com/problems/clone-graph
 https://leetcode.com/problems/copy-list-with-random-pointer
 https://leetcode.com/problems/clone-binary-tree-with-random-pointer
 https://leetcode.com/problems/clone-n-ary-tree
-
 
 Fun:
 https://leetcode.com/problems/find-the-town-judge/  (Just like first non-repeating character)
