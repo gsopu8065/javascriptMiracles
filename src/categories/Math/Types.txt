@@ -3,3 +3,5 @@
 3. Spiral Matrix: https://leetcode.com/problems/spiral-matrix/
 4. Spiral Matrix II: https://leetcode.com/problems/spiral-matrix-ii
 5. Roman to Integer: https://leetcode.com/problems/roman-to-integer/
+6. Floyd's Cycle-Finding Algorithm: https://leetcode.com/problems/happy-number
+7. Ugly Number: https://leetcode.com/problems/ugly-number/

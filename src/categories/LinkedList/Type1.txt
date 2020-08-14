@@ -1,0 +1,10 @@
+Reverse linked list with recursion:
+function print_values_in_reverse(ListNode head)
+    if head is NOT null
+        print_values_in_reverse(head.next)
+        print head.val
+
+
+https://leetcode.com/problems/reverse-linked-list/
+https://leetcode.com/problems/reverse-linked-list-ii/
+https://leetcode.com/problems/palindrome-linked-list
