@@ -1,0 +1,15 @@
+Basic Trie:
+https://leetcode.com/problems/design-add-and-search-words-data-structure/
+
+Prefix Trie:
+https://leetcode.com/problems/implement-trie-prefix-tree/
+
+Trending Trie:
+https://leetcode.com/problems/design-search-autocomplete-system/
+
+String Trie:
+https://leetcode.com/problems/remove-sub-folders-from-the-filesystem
+
+https://leetcode.com/problems/palindrome-pairs/solution/
+
+

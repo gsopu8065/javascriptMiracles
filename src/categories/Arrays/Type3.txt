@@ -1,5 +1,11 @@
 Kadane Algorithm
 
+#Kadane's algorithm
+ans = cur = None
+for x in A:
+    cur = x + max(cur, 0)
+    ans = max(ans, cur)
+return ans
 
 Medium:
 https://leetcode.com/problems/maximum-subarray/

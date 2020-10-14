@@ -1,6 +1,6 @@
 1. Hashmap and Arrays
 
-2. Sliding Window
+2. Sliding Window/two pointers
 
 3. Kandane Algorithm
 
@@ -8,6 +8,8 @@
 
 5. Process from Left and Right
 
-6. Two Pointers
-
 7. Merge List/Intervals
+
+8. Sorting
+
+9. Heap

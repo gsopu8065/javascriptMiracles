@@ -1,7 +1,23 @@
 1. Next Permutation: https://leetcode.com/problems/next-permutation/
 2. Rotate Matrix: https://leetcode.com/problems/rotate-image/
+   Matrix Multiplication: https://leetcode.com/problems/sparse-matrix-multiplication
 3. Spiral Matrix: https://leetcode.com/problems/spiral-matrix/
 4. Spiral Matrix II: https://leetcode.com/problems/spiral-matrix-ii
 5. Roman to Integer: https://leetcode.com/problems/roman-to-integer/
 6. Floyd's Cycle-Finding Algorithm: https://leetcode.com/problems/happy-number
 7. Ugly Number: https://leetcode.com/problems/ugly-number/
+8: Valid Tic-Tac-Toe : https://leetcode.com/problems/valid-tic-tac-toe-state/
+9: Strobogrammatic Number: https://leetcode.com/problems/strobogrammatic-number
+10. GCD: https://leetcode.com/problems/water-and-jug-problem/ (Euclidean algorithm)
+11. Pascal Triangle: https://leetcode.com/problems/pascals-triangle
+                     https://leetcode.com/problems/pascals-triangle-ii
+12. Large Number: https://leetcode.com/problems/largest-number
+13. Max Absolute Diff: https://leetcode.com/problems/maximum-of-absolute-value-expression/
+14. Permutation Sequence: https://leetcode.com/problems/permutation-sequence
+15. 2-keys-keyboard: https://leetcode.com/problems/2-keys-keyboard/
+16. Random pick: https://leetcode.com/problems/random-pick-index
+                 https://leetcode.com/problems/random-pick-with-weight [treemap]
+                 https://leetcode.com/problems/random-pick-with-blacklist [Treemap]
+17. Big Number with one swap: https://leetcode.com/problems/maximum-swap
+18: Nth Num: https://leetcode.com/problems/nth-digit
+19: Multiply Strings: https://leetcode.com/problems/multiply-strings

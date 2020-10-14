@@ -3,3 +3,7 @@ Ordering
 
 Medium:
 https://leetcode.com/problems/zigzag-conversion
+https://leetcode.com/problems/reorganize-string
+https://leetcode.com/problems/string-to-integer-atoi/
+
+

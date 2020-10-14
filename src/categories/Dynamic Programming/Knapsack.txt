@@ -1,0 +1,8 @@
+KnapSack Problem:
+
+[We have unlimited coins, minimum coins to get target amount and what are those coins ]: https://leetcode.com/problems/coin-change/
+[We have unlimited coins, Number of combination to get the target amount ]:https://leetcode.com/problems/coin-change-2/
+[We have unlimited coins, Number of combination to get the target amount, no unique combinations ]: https://leetcode.com/problems/combination-sum-iv
+
+
+https://leetcode.com/problems/minimum-number-of-refueling-stops

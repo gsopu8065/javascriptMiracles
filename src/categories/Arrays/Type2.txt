@@ -3,10 +3,18 @@ Sliding Window
 
 
 Medium:
+https://leetcode.com/problems/boats-to-save-people/solution/
 https://leetcode.com/problems/subarray-product-less-than-k/
 https://leetcode.com/problems/container-with-most-water/
 https://leetcode.com/problems/valid-palindrome-ii/
-
+https://leetcode.com/problems/find-all-anagrams-in-a-string
+https://leetcode.com/problems/minimum-size-subarray-sum/
+https://leetcode.com/problems/number-of-substrings-containing-all-three-characters
+https://leetcode.com/problems/3sum/
+https://leetcode.com/problems/k-diff-pairs-in-an-array/
+https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
+https://leetcode.com/problems/minimum-window-substring
 
 Hard:
 https://leetcode.com/problems/trapping-rain-water/
+https://leetcode.com/problems/median-of-two-sorted-arrays/

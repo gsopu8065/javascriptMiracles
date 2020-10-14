@@ -2,7 +2,14 @@ Type1: Replace with combinations
 https://leetcode.com/problems/generate-parentheses/
 Replace 0 and 1 at ?
 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
-
+https://leetcode.com/problems/strobogrammatic-number-ii
+https://leetcode.com/problems/k-th-symbol-in-grammar
+https://leetcode.com/problems/expression-add-operators
+https://leetcode.com/problems/nested-list-weight-sum
 
 Type2: Count Decode combinations
 https://leetcode.com/problems/decode-ways
+
+Type4: Divide String and call recursively
+https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters
+https://leetcode.com/problems/integer-to-english-words/

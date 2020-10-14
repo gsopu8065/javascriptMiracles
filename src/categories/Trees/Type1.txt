@@ -1,6 +1,65 @@
-Pre/post/in order travels
-
+Pre/post/in order travels:
 https://leetcode.com/problems/binary-search-tree-iterator/
 https://leetcode.com/problems/binary-tree-inorder-traversal/
 https://leetcode.com/problems/binary-tree-postorder-traversal/
 https://leetcode.com/problems/binary-tree-preorder-traversal/
+https://leetcode.com/problems/range-sum-of-bst
+https://leetcode.com/problems/binary-tree-right-side-view/
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+https://leetcode.com/problems/binary-tree-paths
+https://leetcode.com/problems/flatten-binary-tree-to-linked-list
+
+https://leetcode.com/problems/serialize-and-deserialize-binary-tree
+https://leetcode.com/problems/serialize-and-deserialize-bst
+https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/
+
+https://leetcode.com/problems/construct-binary-tree-from-string/
+https://leetcode.com/problems/construct-string-from-binary-tree/
+
+Tree construction:
+https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/
+https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree
+
+Bottom to Top:
+https://leetcode.com/problems/longest-univalue-path/
+
+Distance Calculation:
+https://leetcode.com/problems/minimum-distance-between-bst-nodes (store previous value)
+Max Path Sum: https://leetcode.com/problems/binary-tree-maximum-path-sum/
+Path Sum: https://leetcode.com/problems/path-sum/
+https://leetcode.com/problems/closest-binary-search-tree-value
+
+Compare Trees:
+Symmetric Tree: https://leetcode.com/problems/symmetric-tree/
+Same Tree: https://leetcode.com/problems/same-tree/
+
+Root to leaf:
+Tree Height: https://leetcode.com/problems/maximum-depth-of-binary-tree
+Tree Diameter: https://leetcode.com/problems/diameter-of-binary-tree/
+BST Validation: https://leetcode.com/problems/validate-binary-search-tree
+Least Common Ancestor: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree
+Tree Purging: https://leetcode.com/problems/binary-tree-pruning
+
+Tree Recursion:
+Split Tree: https://leetcode.com/problems/split-bst/
+All possible trees: https://leetcode.com/problems/all-possible-full-binary-trees/
+
+BFS:
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal
+Tree Width: https://leetcode.com/problems/maximum-width-of-binary-tree
+https://leetcode.com/problems/binary-tree-vertical-order-traversal/
+https://leetcode.com/problems/check-completeness-of-a-binary-tree [level-order traverse]
+https://leetcode.com/problems/minimum-knight-moves
+https://leetcode.com/problems/shortest-distance-from-all-buildings
+
+Segment Tree:
+https://leetcode.com/problems/queue-reconstruction-by-height/
+https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+
+N-Array Tree:
+https://leetcode.com/problems/tree-diameter
+https://leetcode.com/problems/maximum-depth-of-n-ary-tree

@@ -9,3 +9,6 @@ https://leetcode.com/problems/merge-k-sorted-lists/
 https://leetcode.com/problems/meeting-rooms/
 https://leetcode.com/problems/meeting-rooms-ii/
 https://leetcode.com/problems/interval-list-intersections/
+https://leetcode.com/problems/employee-free-time
+
+Merge Sort: https://leetcode.com/problems/sort-an-array/

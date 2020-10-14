@@ -1,3 +1,8 @@
+
+
+import com.sun.org.apache.xpath.internal.operations.Bool;
+
+import java.time.LocalDate;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -51,7 +56,6 @@ public class Program1 {
         //Create 50 to 100 integers and print
         IntStream.range(50, 100).forEach(System.out::print);
 
-
         //Stream Sorted: get 20 random numbers from (100 to 200) and map to students and sort decending Stream
         new Random()
                 .ints(20, 100, 200)
@@ -91,5 +95,16 @@ public class Program1 {
         students.parallelStream().forEach(System.out::println);
 
 
+        //flatmap
+        //List<Interval> allSchdules = schedule.stream().flatMap(List::stream).collect(Collectors.toList());
+
+        System.out.println("apple".compareTo("banana"));
+
+        LinkedList<Integer> x = new LinkedList<>();
+        x.add(5);
+        x.add(7);
+        System.out.println(x);
+
     }
 }
+

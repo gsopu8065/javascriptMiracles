@@ -2,14 +2,16 @@ Hashmap and string
 
 Easy:
 https://leetcode.com/problems/first-unique-character-in-a-string/
-
+https://leetcode.com/problems/palindrome-permutation
 
 Medium:
 https://leetcode.com/problems/longest-substring-without-repeating-characters/
 https://leetcode.com/problems/sort-characters-by-frequency/
 https://leetcode.com/problems/top-k-frequent-elements/
 https://leetcode.com/problems/top-k-frequent-words/
-
-
+Permutations in string: https://leetcode.com/problems/permutation-in-string/solution/
+https://leetcode.com/problems/group-shifted-strings
+https://leetcode.com/problems/partition-labels
+https://leetcode.com/problems/group-anagrams/
 
 Hard:

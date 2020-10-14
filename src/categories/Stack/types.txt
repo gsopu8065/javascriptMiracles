@@ -1,8 +1,16 @@
 Parenthesis:
 https://leetcode.com/problems/valid-parentheses/
 https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses
+https://leetcode.com/problems/minimum-add-to-make-parentheses-valid
+https://leetcode.com/problems/valid-parenthesis-string [store indexes]
 
 Evaluate Expression:
 https://leetcode.com/problems/basic-calculator
 https://leetcode.com/problems/basic-calculator-ii
 https://leetcode.com/problems/basic-calculator-iii
+https://leetcode.com/problems/number-of-atoms
+
+https://leetcode.com/problems/exclusive-time-of-functions/
+https://leetcode.com/problems/largest-rectangle-in-histogram
+
+https://leetcode.com/problems/decode-string/

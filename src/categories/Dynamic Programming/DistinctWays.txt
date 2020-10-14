@@ -1,0 +1,27 @@
+This is not DP, this is more of recursion and Backtracking
+
+Basic Recursion:
+https://leetcode.com/problems/unique-paths/
+https://leetcode.com/problems/unique-paths-ii/
+https://leetcode.com/problems/target-sum
+https://leetcode.com/problems/number-of-dice-rolls-with-target-sum [recursion with memory]
+
+DFS + Backtracking:
+https://leetcode.com/problems/partition-equal-subset-sum  [DP]
+https://leetcode.com/problems/last-stone-weight-ii [equal subset + minimum logic]
+https://leetcode.com/problems/partition-to-k-equal-sum-subsets/ [Same as word break II]
+https://leetcode.com/problems/integer-break/ [same as word break II]
+https://leetcode.com/problems/unique-paths-iii [Graph + recursion + backtracking]
+
+
+Basic DP:
+https://leetcode.com/problems/longest-increasing-subsequence
+
+2D DP:
+https://leetcode.com/problems/dice-roll-simulation/
+https://leetcode.com/problems/knight-dialer
+https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+https://leetcode.com/problems/ones-and-zeroes [no sense]
+https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing [No sense]
+
+https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays

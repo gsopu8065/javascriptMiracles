@@ -3,3 +3,6 @@ https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+https://leetcode.com/problems/search-a-2d-matrix-ii/
+https://leetcode.com/problems/powx-n/
+https://leetcode.com/problems/sqrtx

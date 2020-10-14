@@ -1,0 +1,26 @@
+DP:
+https://leetcode.com/problems/longest-common-subsequence
+https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+https://leetcode.com/problems/longest-palindromic-subsequence/
+https://leetcode.com/problems/valid-palindrome-iii
+
+
+DP Math logic:
+https://leetcode.com/problems/edit-distance/
+https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings
+https://leetcode.com/problems/regular-expression-matching/
+https://leetcode.com/problems/wildcard-matching/
+
+Extend Palindrome:
+https://leetcode.com/problems/longest-palindromic-substring/
+https://leetcode.com/problems/palindromic-substrings/
+
+
+Hard later:
+https://leetcode.com/problems/shortest-common-supersequence
+https://leetcode.com/problems/distinct-subsequences
+https://leetcode.com/problems/palindrome-partitioning-iii
+
+
+
+

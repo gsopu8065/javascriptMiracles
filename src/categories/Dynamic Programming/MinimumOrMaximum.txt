@@ -1,0 +1,29 @@
+Minimum/Maximum cost/path/sum to reach target
+https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns
+dp[curr] = min(1 to curr-1) + arr[curr];
+
+https://leetcode.com/problems/min-cost-climbing-stairs/ [Minimum of last two + current cost]
+https://leetcode.com/problems/climbing-stairs [combination of last two, same as fibonacci]
+https://leetcode.com/problems/minimum-falling-path-sum
+https://leetcode.com/problems/minimum-falling-path-sum-ii
+https://leetcode.com/problems/minimum-path-sum
+https://leetcode.com/problems/minimum-cost-for-tickets
+
+BFS:
+https://leetcode.com/problems/jump-game-iii/ [bfs]
+https://leetcode.com/problems/perfect-squares [bfs]
+
+
+Minimum taps/video clips to open/pick:
+https://leetcode.com/problems/jump-game
+https://leetcode.com/problems/jump-game-ii
+https://leetcode.com/problems/video-stitching/
+https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden [process left to right on each tap]
+
+
+Heap Greedy:
+https://leetcode.com/problems/last-stone-weight
+
+Hard:
+https://leetcode.com/problems/cherry-pickup
+https://leetcode.com/problems/cherry-pickup-ii/

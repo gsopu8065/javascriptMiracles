@@ -1,0 +1,4 @@
+Palindrome
+
+https://leetcode.com/problems/longest-palindromic-substring
+https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/ [Dynamic programming]

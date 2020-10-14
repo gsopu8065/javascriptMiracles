@@ -41,5 +41,9 @@ public class Program3 {
         copyNames.add("taryn");
         System.out.println("old list = "+names);
         System.out.println("clone list = "+copyNames);
+
+        int x1 = 0, y1 = 0, x2 = 0, y2 = 0;
+        
+
     }
 }

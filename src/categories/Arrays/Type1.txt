@@ -6,6 +6,9 @@ https://leetcode.com/problems/subarray-sum-equals-k/
 https://leetcode.com/problems/subarray-sums-divisible-by-k/
 https://leetcode.com/problems/continuous-subarray-sum/
 https://leetcode.com/problems/subdomain-visit-count/
+https://leetcode.com/problems/friends-of-appropriate-ages/
+https://leetcode.com/problems/diagonal-traverse-ii
+https://leetcode.com/problems/minimum-area-rectangle
 
 Top K Values:
 https://leetcode.com/problems/top-k-frequent-words/
@@ -13,6 +16,4 @@ https://leetcode.com/problems/k-closest-points-to-origin/
 https://leetcode.com/problems/kth-largest-element-in-an-array/
 https://leetcode.com/problems/find-k-th-smallest-pair-distance/ (HARD)
 
-String + Hashmap:
-https://leetcode.com/problems/partition-labels
-https://leetcode.com/problems/group-anagrams/
+

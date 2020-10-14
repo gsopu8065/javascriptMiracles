@@ -49,6 +49,8 @@ public class Program4 {
         //sort Limit and skip methods
         map1.entrySet().stream().sorted((a,b) -> a.getKey() - b.getKey()).limit(2).collect(Collectors.toList());
 
+        //.collect(Collectors.joining(", ")
+
     }
 
     public static void treemap(){

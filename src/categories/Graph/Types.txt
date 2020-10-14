@@ -3,11 +3,18 @@ BFS:
 [Visited matrix]: Source to destination shortest path no weights binary (BFS2)
 
 DFS:
-[Basic DFS]: Number of Islands (DFS1),
+https://leetcode.com/problems/flood-fill
+https://leetcode.com/problems/number-of-islands,
+https://leetcode.com/problems/max-area-of-island
+https://leetcode.com/problems/making-a-large-island
+
 [DFS with No Visitors]: Word search in a board (DFS1_2 DFS with no visitors),
 [Elulars algorithm]: traverse only once (use linked link) https://leetcode.com/problems/reconstruct-itinerary/
 [1-D Visitors]: https://leetcode.com/problems/friend-circles (with 1-D visitors)
 [Store visitors value]: Longest Increasing Path
+
+DFS + BFS:
+https://leetcode.com/problems/shortest-bridge
 
 Cycle Detection:
 [Cycle in Directed]: Find cycle using color code https://www.interviewbit.com/problems/cycle-in-directed-graph/ (DFS2)

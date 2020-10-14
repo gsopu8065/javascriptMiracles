@@ -1,9 +1,0 @@
-Two Pointers
-
-
-Medium:
-https://leetcode.com/problems/3sum/
-
-
-Hard:
-https://leetcode.com/problems/median-of-two-sorted-arrays/
