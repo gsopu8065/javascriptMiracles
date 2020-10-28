@@ -13,3 +13,5 @@
 8. Sorting
 
 9. Heap
+
+10.Trial And Error

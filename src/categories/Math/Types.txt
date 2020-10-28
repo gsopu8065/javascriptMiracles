@@ -4,11 +4,13 @@
 3. Spiral Matrix: https://leetcode.com/problems/spiral-matrix/
 4. Spiral Matrix II: https://leetcode.com/problems/spiral-matrix-ii
 5. Roman to Integer: https://leetcode.com/problems/roman-to-integer/
+                     https://leetcode.com/problems/integer-to-roman/
 6. Floyd's Cycle-Finding Algorithm: https://leetcode.com/problems/happy-number
-7. Ugly Number: https://leetcode.com/problems/ugly-number/
 8: Valid Tic-Tac-Toe : https://leetcode.com/problems/valid-tic-tac-toe-state/
+                       https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game/
+                       https://leetcode.com/problems/design-tic-tac-toe/
 9: Strobogrammatic Number: https://leetcode.com/problems/strobogrammatic-number
-10. GCD: https://leetcode.com/problems/water-and-jug-problem/ (Euclidean algorithm)
+10. GCD: https://leetcode.com/problems/water-and-jug-problem/ (Euclidean algorithm) ax + bx = d where d = gcd(x, y)
 11. Pascal Triangle: https://leetcode.com/problems/pascals-triangle
                      https://leetcode.com/problems/pascals-triangle-ii
 12. Large Number: https://leetcode.com/problems/largest-number

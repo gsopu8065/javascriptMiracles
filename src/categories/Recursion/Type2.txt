@@ -4,13 +4,19 @@ BackTracking
 Draw a tree diagram
 https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning)
 
-Subsets: https://leetcode.com/problems/subsets/ (N*2^N)
-Subsets With Duplicates: https://leetcode.com/problems/subsets-ii/ (N*2^N)
+Time complexity:
+subsets: (2^N)
+combinations: N!​/(N−k)!k!
+permutations: N!
+
+
+Subsets: https://leetcode.com/problems/subsets/ (2^N)
+Subsets With Duplicates: https://leetcode.com/problems/subsets-ii/ (2^N)
 Letter Case: https://leetcode.com/problems/letter-case-permutation
 
-Combinations: https://leetcode.com/problems/combinations/ (N*2^N)
-Combinations Sum (use candidates once) : https://leetcode.com/problems/combination-sum-ii/ (N*2^N)
-Combinations Sum (use candidates repeatedly) : https://leetcode.com/problems/combination-sum (N*2^N)
+Combinations: https://leetcode.com/problems/combinations/
+Combinations Sum (use candidates once) : https://leetcode.com/problems/combination-sum-ii/
+Combinations Sum (use candidates repeatedly) : https://leetcode.com/problems/combination-sum
 Combinations Sum (use candidates once but no array)https://leetcode.com/problems/combination-sum-iii
 Combinations with length: https://leetcode.com/problems/iterator-for-combination
 

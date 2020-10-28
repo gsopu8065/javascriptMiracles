@@ -1,59 +1,62 @@
 BFS:
-[No visited matrix]: Rotten oranges (BFS1)
-[Visited matrix]: Source to destination shortest path no weights binary (BFS2)
+https://leetcode.com/problems/rotting-oranges
+https://leetcode.com/problems/shortest-path-in-binary-matrix
+https://leetcode.com/problems/path-with-maximum-minimum-value/
 
-DFS:
+DFS in Matrix:
 https://leetcode.com/problems/flood-fill
-https://leetcode.com/problems/number-of-islands,
+https://leetcode.com/problems/number-of-islands
 https://leetcode.com/problems/max-area-of-island
 https://leetcode.com/problems/making-a-large-island
+https://leetcode.com/problems/word-search
+https://leetcode.com/problems/friend-circles
+https://leetcode.com/problems/longest-increasing-path-in-a-matrix
+https://leetcode.com/problems/walls-and-gates
 
-[DFS with No Visitors]: Word search in a board (DFS1_2 DFS with no visitors),
-[Elulars algorithm]: traverse only once (use linked link) https://leetcode.com/problems/reconstruct-itinerary/
-[1-D Visitors]: https://leetcode.com/problems/friend-circles (with 1-D visitors)
-[Store visitors value]: Longest Increasing Path
+DFS in Graph:
+https://leetcode.com/problems/reconstruct-itinerary/ [Add to result at end]
+https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree
 
 DFS + BFS:
 https://leetcode.com/problems/shortest-bridge
 
-Cycle Detection:
-[Cycle in Directed]: Find cycle using color code https://www.interviewbit.com/problems/cycle-in-directed-graph/ (DFS2)
-            https://leetcode.com/problems/all-paths-from-source-lead-to-destination
-            https://www.interviewbit.com/problems/possibility-of-finishing-all-courses-given-prerequisites/
-[Cycle in undirected graph(no direction)]: https://www.interviewbit.com/problems/cycle-in-undirected-graph/
+Disjoint-set/Cycle Detection in undirected:
+    1. It is useful to form groups (only in  undirected/directionless)
+    2. It is useful to find cycles (only in  undirected/directionless)
+Type1: https://leetcode.com/problems/accounts-merge/ [There is no direction between emails]
+       https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph
+       https://leetcode.com/problems/similar-string-groups
+       https://leetcode.com/problems/graph-valid-tree
+       https://leetcode.com/problems/validate-binary-tree-nodes
+
+Type2: Disjoint with rank
+       https://leetcode.com/problems/evaluate-division/
+
+Cycle Detection in directed (Find cycle using color code):
+https://www.interviewbit.com/problems/cycle-in-directed-graph
+https://leetcode.com/problems/all-paths-from-source-lead-to-destination
+https://leetcode.com/problems/course-schedule
 
 Topology:
-[Basic Topology]: Course List
-[Topology with logic]: https://leetcode.com/problems/alien-dictionary
-
-Trees + Graph: [Note: number of edges == number of nodes -1]
-[Directed] https://leetcode.com/problems/graph-valid-tree/
-[Undirected]:https://leetcode.com/problems/validate-binary-tree-nodes/
-[Nodes Removal]:https://leetcode.com/problems/minimum-height-trees/
+https://leetcode.com/problems/course-schedule-ii
+https://leetcode.com/problems/alien-dictionary
 
 Graph Bipartite:
 https://leetcode.com/problems/is-graph-bipartite/
 https://leetcode.com/problems/possible-bipartition/
 
 Dijkstra's Shortest Path (only +ve weights):
-[Basic Dijkstra]: https://leetcode.com/problems/network-delay-time/
-[Dijkstra with no need of dist array]: https://leetcode.com/problems/cheapest-flights-within-k-stops/
-
-Dijkstra + DFS:
-https://leetcode.com/problems/path-with-maximum-minimum-value/
-
-Disjoint-set
-Type1: https://leetcode.com/problems/accounts-merge/
-       https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph
-       https://leetcode.com/problems/similar-string-groups
-Type2: Disjoint with rank
-       https://leetcode.com/problems/evaluate-division/
+https://leetcode.com/problems/network-delay-time/
+https://leetcode.com/problems/cheapest-flights-within-k-stops/
 
 Cloning Graph/List/Tree (all same )
 https://leetcode.com/problems/clone-graph
 https://leetcode.com/problems/copy-list-with-random-pointer
 https://leetcode.com/problems/clone-binary-tree-with-random-pointer
 https://leetcode.com/problems/clone-n-ary-tree
+
+
+[Nodes Removal]:https://leetcode.com/problems/minimum-height-trees/
 
 Fun:
 https://leetcode.com/problems/find-the-town-judge/  (Just like first non-repeating character)

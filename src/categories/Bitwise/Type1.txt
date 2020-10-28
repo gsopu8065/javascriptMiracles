@@ -33,3 +33,5 @@ https://leetcode.com/problems/reverse-bits
  y = x<<1; //this is equals to 10*2
  y = x<<2; //this is equals to 10*2*2
  y = x<<3; //this is equals to 10*2*2*2
+
+ https://leetcode.com/problems/divide-two-integers/

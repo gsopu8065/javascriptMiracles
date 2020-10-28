@@ -9,6 +9,7 @@ https://leetcode.com/problems/subdomain-visit-count/
 https://leetcode.com/problems/friends-of-appropriate-ages/
 https://leetcode.com/problems/diagonal-traverse-ii
 https://leetcode.com/problems/minimum-area-rectangle
+https://leetcode.com/problems/task-scheduler
 
 Top K Values:
 https://leetcode.com/problems/top-k-frequent-words/

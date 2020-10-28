@@ -14,3 +14,7 @@ https://leetcode.com/problems/exclusive-time-of-functions/
 https://leetcode.com/problems/largest-rectangle-in-histogram
 
 https://leetcode.com/problems/decode-string/
+
+https://leetcode.com/problems/next-greater-element-i/
+https://leetcode.com/problems/next-greater-element-ii/
+https://leetcode.com/problems/next-greater-node-in-linked-list
