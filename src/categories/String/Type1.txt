@@ -4,6 +4,8 @@ Easy:
 https://leetcode.com/problems/first-unique-character-in-a-string/
 https://leetcode.com/problems/palindrome-permutation
 https://leetcode.com/problems/verifying-an-alien-dictionary
+https://leetcode.com/problems/buddy-strings
+https://leetcode.com/problems/custom-sort-string
 
 Medium:
 https://leetcode.com/problems/longest-substring-without-repeating-characters/

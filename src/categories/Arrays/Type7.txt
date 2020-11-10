@@ -6,6 +6,8 @@ Medium:
 https://leetcode.com/problems/merge-intervals/
 https://leetcode.com/problems/employee-free-time
 https://leetcode.com/problems/insert-interval
+https://leetcode.com/problems/non-overlapping-intervals
+https://leetcode.com/problems/car-pooling
 
 https://leetcode.com/problems/merge-two-sorted-lists/
 https://leetcode.com/problems/merge-k-sorted-lists/

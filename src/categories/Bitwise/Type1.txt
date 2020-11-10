@@ -35,3 +35,6 @@ https://leetcode.com/problems/reverse-bits
  y = x<<3; //this is equals to 10*2*2*2
 
  https://leetcode.com/problems/divide-two-integers/
+
+5. Integer to HEX
+https://leetcode.com/problems/convert-a-number-to-hexadecimal

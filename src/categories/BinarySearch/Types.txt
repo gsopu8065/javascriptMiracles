@@ -7,3 +7,9 @@ https://leetcode.com/problems/search-a-2d-matrix-ii/
 https://leetcode.com/problems/leftmost-column-with-at-least-a-one/
 https://leetcode.com/problems/powx-n/
 https://leetcode.com/problems/sqrtx
+https://leetcode.com/problems/first-bad-version/
+
+https://leetcode.com/problems/search-a-2d-matrix
+https://leetcode.com/problems/koko-eating-bananas
+https://leetcode.com/problems/single-element-in-a-sorted-array
+https://leetcode.com/problems/find-peak-element
