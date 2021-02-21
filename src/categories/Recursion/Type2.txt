@@ -6,7 +6,7 @@ https://leetcode.com/problems/permutations/discuss/18239/A-general-approach-to-b
 
 Time complexity:
 subsets: (2^N)
-combinations: N!​/(N−k)!k!
+combinations: N!/(N−k)!k!
 permutations: N!
 
 
@@ -34,6 +34,7 @@ https://leetcode.com/problems/word-break-ii [Approach2 with recursion to get all
 https://leetcode.com/problems/palindrome-partitioning [same as word break II]
 https://leetcode.com/problems/restore-ip-addresses [Same as word break II]
 https://leetcode.com/problems/palindrome-partitioning-ii [DFS with cache]
+https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters
 
 4. Word Ladder:
 https://leetcode.com/problems/word-ladder/

@@ -8,3 +8,6 @@ function print_values_in_reverse(ListNode head)
 https://leetcode.com/problems/reverse-linked-list/
 https://leetcode.com/problems/reverse-linked-list-ii/
 https://leetcode.com/problems/palindrome-linked-list
+
+https://leetcode.com/problems/reverse-nodes-in-k-group/
+https://leetcode.com/problems/add-two-numbers-ii

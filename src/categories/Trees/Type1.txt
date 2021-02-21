@@ -11,6 +11,8 @@ https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
 https://leetcode.com/problems/binary-tree-paths
 https://leetcode.com/problems/flatten-binary-tree-to-linked-list
 https://leetcode.com/problems/sum-root-to-leaf-numbers
+https://leetcode.com/problems/count-good-nodes-in-binary-tree/
+https://leetcode.com/problems/inorder-successor-in-bst
 
 https://leetcode.com/problems/serialize-and-deserialize-binary-tree
 https://leetcode.com/problems/serialize-and-deserialize-bst
@@ -65,6 +67,7 @@ https://leetcode.com/problems/shortest-distance-from-all-buildings
 vertical order traverse vs bst vertical order traverse: [visu]
 https://leetcode.com/problems/binary-tree-vertical-order-traversal/
 https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+https://leetcode.com/problems/boundary-of-binary-tree/
 
 Segment Tree:
 https://leetcode.com/problems/queue-reconstruction-by-height/
@@ -73,3 +76,4 @@ https://leetcode.com/problems/count-of-smaller-numbers-after-self/
 N-Array Tree:
 https://leetcode.com/problems/tree-diameter
 https://leetcode.com/problems/maximum-depth-of-n-ary-tree
+https://leetcode.com/problems/n-ary-tree-level-order-traversal

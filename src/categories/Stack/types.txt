@@ -19,6 +19,8 @@ https://leetcode.com/problems/next-greater-element-i/
 https://leetcode.com/problems/next-greater-element-ii/
 https://leetcode.com/problems/next-greater-node-in-linked-list
 
-
+https://leetcode.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/
 https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string
 https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii
+
+https://leetcode.com/problems/implement-queue-using-stacks

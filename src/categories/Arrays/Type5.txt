@@ -1,5 +1,7 @@
 Process from Left and Right
 
+Easy:
+https://leetcode.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters
 
 Medium:
 https://leetcode.com/problems/maximize-distance-to-closest-person/
