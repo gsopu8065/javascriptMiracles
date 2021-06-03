@@ -12,6 +12,7 @@ https://leetcode.com/problems/minimum-cost-for-tickets
 https://leetcode.com/problems/minimum-falling-path-sum
 https://leetcode.com/problems/minimum-falling-path-sum-ii
 https://leetcode.com/problems/minimum-path-sum
+https://leetcode.com/problems/maximal-square/
 
 
 Minimum taps/video clips to open/pick:
@@ -19,6 +20,7 @@ https://leetcode.com/problems/jump-game
 https://leetcode.com/problems/jump-game-ii
 https://leetcode.com/problems/video-stitching/
 https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden [process left to right on each tap]
+https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule
 
 BFS:
 https://leetcode.com/problems/jump-game-iii/ [bfs]

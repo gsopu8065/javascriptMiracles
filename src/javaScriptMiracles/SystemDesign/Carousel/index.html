@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>React/Redux for beginners</title>
+    <!--
+       NOTE: Check other version at: https://cdnjs.com
+    -->
+    <!-- React Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.13.1/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.13.1/umd/react-dom.production.min.js"></script>
+
+    <!-- Babel Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+
+    <style>
+        #app {
+            display: flex;
+            height: 100vh;
+
+            div {
+                margin: auto;
+            }
+        }
+
+        body {
+            background: #B24592;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #F15F79, #B24592);
+            background: linear-gradient(to right, #F15F79, #B24592);
+        }
+
+        .carousel__wrapper {
+            border-radius: 5px;
+            box-shadow: 0 1rem 2rem;
+            margin: 2rem auto;
+            overflow: hidden;
+            width: 400px;
+        }
+
+        .carousel__controls {
+            display: flex;
+        }
+
+        .carousel__container {
+            display: flex;
+            height: 300px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .carousel__image {
+            position: absolute;
+            left: 0;
+            opacity: 0;
+            top: 0;
+            transform: scale(1.1);
+            transition: all .15s ease-out;
+        }
+
+        .carousel__image.active {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .carousel__button {
+            background: #f2f2f2;
+            border: 0;
+            color: purple;
+            cursor: pointer;
+            font-size: 1rem;
+            flex-grow: 1;
+            outline: none;
+            padding: 1rem;
+            transition: all .1s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    Loading...
+</div>
+
+<script type="text/babel" src="./index.jsx"></script>
+
+</body>
+</html>

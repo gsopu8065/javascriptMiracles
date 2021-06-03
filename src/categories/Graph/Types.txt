@@ -30,6 +30,7 @@ Type1: https://leetcode.com/problems/accounts-merge/ [There is no direction betw
        https://leetcode.com/problems/similar-string-groups
        https://leetcode.com/problems/graph-valid-tree
        https://leetcode.com/problems/validate-binary-tree-nodes
+       https://leetcode.com/problems/number-of-islands-ii
 
 Type2: Disjoint with rank
        https://leetcode.com/problems/evaluate-division/
@@ -50,6 +51,9 @@ https://leetcode.com/problems/possible-bipartition/
 Dijkstra's Shortest Path (only +ve weights):
 https://leetcode.com/problems/network-delay-time/
 https://leetcode.com/problems/cheapest-flights-within-k-stops/
+
+Tarjan:
+https://leetcode.com/problems/critical-connections-in-a-network
 
 Cloning Graph/List/Tree (all same )
 https://leetcode.com/problems/clone-graph

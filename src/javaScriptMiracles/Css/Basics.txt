@@ -1,0 +1,34 @@
+1. Types of selectors (3)
+   a. Tag selector
+   b. Id selector
+   c. Class selector
+
+2. What is box model (old and boxes)
+Margin --> boarder --> padding --> content (Width and Height)
+
+3. What is flex model (tags)
+Using flexbox, you can specify how elements should grow/shrink to fit different screen sizes.
+
+4. What is Grid Modal
+grid allows you to define layouts with both rows and columns. This results in a "2D" specification where you can better control vertical and horizontal relationships between elements.
+
+5. What is a CSS pre-processor?
+A CSS preprocessor is a program that lets you generate CSS from the preprocessor’s own unique syntax.(Less/Sass)
+   a. Variables for consistent theming.
+   b. Sass features like loops, lists, and maps can make configuration easier and less verbose.
+   c. Splitting your code into multiple files.
+
+6. What is Sass vs Less?
+Less is JavaScript based and Sass is Ruby based.
+
+7. What’s the difference between a relative, fixed, absolute and statically positioned element?
+position is fixed, doesn't move when scrolled(ex: navigation bar)
+position is absolute, positioned at a specified position relative to its closest positioned ancestor
+
+8. block vs inline elements
+A block-level element always starts on a new line.
+An inline element does not start on a new line.
+
+9. Repaint vs Reflow
+A repaint occurs when changes are made to an elements skin that changes visibly, but do not affect its layout.
+A reflow is even more critical to performance because it involves changes that affect the layout of a portion of the page (or the whole page).

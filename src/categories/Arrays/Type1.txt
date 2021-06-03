@@ -12,6 +12,8 @@ https://leetcode.com/problems/minimum-area-rectangle
 https://leetcode.com/problems/task-scheduler
 https://leetcode.com/problems/contiguous-array
 https://leetcode.com/problems/design-hit-counter
+https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60
+https://leetcode.com/problems/prison-cells-after-n-days
 
 Top K Values:
 https://leetcode.com/problems/top-k-frequent-words/
