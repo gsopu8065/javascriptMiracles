@@ -1,7 +1,7 @@
 Substrings:
 
 
-Longest Substring: https://leetcode.com/problems/longest-repeating-substring
+Longest Substring: https://leetcode.com/problems/longest-repeating-substring (Moved to DP)
 https://leetcode.com/problems/longest-common-prefix/
 https://leetcode.com/problems/valid-word-abbreviation
 https://leetcode.com/problems/remove-comments/

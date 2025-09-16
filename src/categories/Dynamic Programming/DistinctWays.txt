@@ -21,6 +21,7 @@ https://leetcode.com/problems/longest-increasing-subsequence
 https://leetcode.com/problems/dice-roll-simulation/
 https://leetcode.com/problems/knight-dialer
 https://leetcode.com/problems/maximum-length-of-repeated-subarray/
+https://leetcode.com/problems/longest-repeating-substring/
 https://leetcode.com/problems/ones-and-zeroes [no sense]
 https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing [No sense]
 
